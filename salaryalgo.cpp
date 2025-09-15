@@ -13,7 +13,10 @@ double rte = 7.50;
 
 cout<< " How many hours did you work?";
 cin >> hrs;
-
+if (hrs <= 0){
+    cout<<"u a bum"<< endl;
+    return 0;
+}
 if(hrs <=40){
     sal = hrs*rte;
 }
